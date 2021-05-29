@@ -1,0 +1,22 @@
+{
+  "name": "gallery-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorlicenberger/gallery-cypress.git"
+  },
+  "author": "igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorlicenberger/gallery-cypress/issues"
+  },
+  "homepage": "https://github.com/igorlicenberger/gallery-cypress#readme",
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  }
+}
