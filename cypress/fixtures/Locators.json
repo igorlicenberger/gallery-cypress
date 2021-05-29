@@ -1,0 +1,74 @@
+{
+    "Header" : {
+        "Register" : ":nth-child(2) > .nav-link",
+        "Login" : ".ml-auto > :nth-child(1) > .nav-link",
+        "Logout" : ".ml-auto > :nth-child(3) > .nav-link",
+        "CreateGallery" : ".mr-auto > :nth-child(3) > .nav-link",
+        "MyGalleries" : "a[href='/my-galleries']"
+    },
+
+    "Register" : {
+        "FirstName" : "#first-name",
+        "LastName" : "#last-name",
+        "Email" : "#email",
+        "Password" : "#password",
+        "ConfirmedPassword" : "#password-confirmation",
+        "Terms" : ".form-check-input",
+        "Submit" : ".btn",
+        "Alert" : ":nth-child(3) > .alert",
+        "AlertTwo": ":nth-child(4) > .alert",
+        "AlertTree": ".alert",
+        "AlertFour" : ".alert",
+        "Homepage" : "#app > :nth-child(2) > :nth-child(1)"
+    },
+
+    "Login" : {
+        "Email" : "#email",
+        "Password" : "#password",
+        "Submit" : ".btn",
+        "Homepage" : "#app > :nth-child(2) > :nth-child(1)",
+        "Alert" : ".alert",
+        "Logout" : ".ml-auto > :nth-child(3) > .nav-link"
+    },
+
+    "CreateGallery" : {
+        "Title" : "#title",
+        "Description" : "#description",
+        "ImageUrl" : ".input-group > .form-control",
+        "ButtonUp" : ":nth-child(2) > .input-group > .input-group-append > :nth-child(2) > .fas",
+        "ButtonUpTwo" : ":nth-child(3) > .input-group > .input-group-append > :nth-child(2) > .fas",
+        "ButtonDown" : ":nth-child(2) > .input-group > .input-group-append > :nth-child(3)",
+        "ButtonDownTwo" : ":nth-child(3) > .input-group > .input-group-append > :nth-child(3) > .fas",
+        "AddImage" : "form > :nth-child(3) > :nth-child(3)",
+        "ImageTwo": ":nth-child(3) > .input-group > .form-control",
+        "Delete" : ":nth-child(2) > .input-group > .input-group-append > :nth-child(1) > .fas",
+        "DeleteTwo" : ":nth-child(3) > .input-group > .input-group-append > :nth-child(1) > .fas",
+        "Cancel" : "form > :nth-child(5)",
+        "Submit" : "form > :nth-child(4)",
+        "Alert" : ".alert",
+        "AllGalleries" : "#app > :nth-child(2) > :nth-child(1)"
+    },
+
+    "AllGalleries" : {
+        "Homepage" : "#app > :nth-child(2) > :nth-child(1)",
+        "Search" : "input[placeholder='Search...']",
+        "Filter" : ".input-group-append > .btn",
+        "Author" : ":nth-child(1) > h2 > .box-title"
+    },
+
+    "MyGalleries" : {
+        "Homepage" : "#app > :nth-child(2) > :nth-child(1)",
+        "Search" : "input[placeholder='Search...']",
+        "Filter" : ".input-group-append > .btn",
+        "Author" : ":nth-child(1) > h2 > .box-title",
+        "Edit" : "a.btn",
+        "Delete" : ":nth-child(5) > button.btn",
+        "Comment" : "textarea[placeholder='Comment...']",
+        "Submit" : "form > :nth-child(4)",
+        "Title" : "#title",
+        "Description" : "#description",
+        "SubmitTwo" : "form > .btn",
+        "DeleteTwo" : ".fas",
+        "Home" : "#app > :nth-child(2) > :nth-child(1)"
+    }
+}
